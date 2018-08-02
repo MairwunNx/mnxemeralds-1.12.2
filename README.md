@@ -1,5 +1,5 @@
 # MairwunNx Emeralds | mnxemeralds
-Emeralds... Emralds... EMERALDS!!! Mod add more emeralds items in Minecraft.
+Emeralds... Emeralds... EMERALDS!!! Mod add more emeralds items in Minecraft.
 
 ![Alt text](images/modlogo.png "logo.")
 
