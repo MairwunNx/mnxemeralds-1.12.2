@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "LL ",
+        "LA ",
+        " A "
+    ],
+    "key": {
+        "L": {
+            "item": "minecraft:emerald"
+        },
+        "A": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "mnxemeralds:emerald_axe",
+        "count": 1
+    }
+}

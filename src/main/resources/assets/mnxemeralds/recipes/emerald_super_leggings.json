@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "LLL",
+        "LAL",
+        "LLL"
+    ],
+    "key": {
+        "L": {
+            "item": "mnxemeralds:emerald_hard_block"
+        },
+        "A": {
+            "item": "mnxemeralds:emerald_block_leggings"
+        }
+    },
+    "result": {
+        "item": "mnxemeralds:emerald_super_leggings",
+        "count": 1
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "LLL",
+        "LAL",
+        "LLL"
+    ],
+    "key": {
+        "L": {
+            "item": "mnxemeralds:emerald_nugget"
+        },
+        "A": {
+            "item": "minecraft:golden_apple",
+            "data": 0
+        }
+    },
+    "result": {
+        "item": "mnxemeralds:emerald_nugget_apple",
+        "count": 1
+    }
+}

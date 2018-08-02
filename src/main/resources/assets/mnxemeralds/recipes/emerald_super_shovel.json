@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "LLL",
+        "LAL",
+        "LLL"
+    ],
+    "key": {
+        "L": {
+            "item": "mnxemeralds:emerald_hard_block"
+        },
+        "A": {
+            "item": "mnxemeralds:emerald_block_shovel"
+        }
+    },
+    "result": {
+        "item": "mnxemeralds:emerald_super_shovel",
+        "count": 1
+    }
+}

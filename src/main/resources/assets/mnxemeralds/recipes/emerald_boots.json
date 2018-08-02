@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "   ",
+        "L L",
+        "L L"
+    ],
+    "key": {
+        "L": {
+            "item": "minecraft:emerald"
+        }
+    },
+    "result": {
+        "item": "mnxemeralds:emerald_boots",
+        "count": 1
+    }
+}
