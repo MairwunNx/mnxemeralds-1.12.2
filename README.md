@@ -40,3 +40,10 @@ Emeralds... Emeralds... EMERALDS!!! Mod add more emeralds items in Minecraft.
  * Emerald armor, identical to the diamond armor, but more durability and toughness. (1832\4.0F)
  * Emerald block armor, identical to the emerald armor, but more durability and toughness. (2432\5.0F)
  * Emerald super armor, identical to the emerald block armor, but more durability and toughness. (3632\7.0F)
+
+# Download.
+
+ * Download the source and ñompile (compiling source requires Intellij IDEA 2018.2+ and Java 8).
+ * Download a pre-compiled mnxemeralds from the [releases](https://github.com/MairwunNx/mnxemeralds-1.12.2/releases) page.
+ * Download a compiled mnxemeralds from the [curseforge](https://minecraft.curseforge.com/projects/mnxemeralds) page.
+ 
