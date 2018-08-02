@@ -15,7 +15,7 @@ Emeralds... Emeralds... EMERALDS!!! Mod add more emeralds items in Minecraft.
  * Emerald apple, identical to the golden apple. Adds some effects to player and adds more units of saturation and food.
  * Emerald super apple, identical to the golden powered apple. Adds some effects to player and adds more units of saturation and food.
  
-# Tools and Weap.
+# Tools and Weap
 
  * Emerald Axe, identical to the diamond axe, but more durability and efficiency. (1832\18.0F)
  * Emerald Pickaxe, identical to the diamond pickaxe, but more durability and efficiency. (1832\18.0F)
@@ -35,13 +35,13 @@ Emeralds... Emeralds... EMERALDS!!! Mod add more emeralds items in Minecraft.
  * Emerald Super Hoe, identical to the emerald block hoe, but more durability. (3632)
  * Emerald Super Sword, identical to the emerald block sword, but more durability and damage. (3632\27.0F)
  
-# Aaaarmor.
+# Aaaarmor
 
  * Emerald armor, identical to the diamond armor, but more durability and toughness. (1832\4.0F)
  * Emerald block armor, identical to the emerald armor, but more durability and toughness. (2432\5.0F)
  * Emerald super armor, identical to the emerald block armor, but more durability and toughness. (3632\7.0F)
 
-# Download.
+# Download
 
  * Download the source and ñompile (compiling source requires Intellij IDEA 2018.2+ and Java 8).
  * Download a pre-compiled mnxemeralds from the [releases](https://github.com/MairwunNx/mnxemeralds-1.12.2/releases) page.
