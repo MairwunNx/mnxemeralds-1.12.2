@@ -1,8 +1,8 @@
 package com.mairwunnx.mnxemeralds.registers;
 
+import com.mairwunnx.mnxemeralds.blocks.emeraldfence;
 import com.mairwunnx.mnxemeralds.blocks.emeraldhardblock;
 import net.minecraft.block.Block;
-import net.minecraft.block.material.Material;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
@@ -16,16 +16,19 @@ import static com.mairwunnx.mnxemeralds.mnxemeralds.defaultModTab;
 public class blockregister
 {
     public static Block KEY = new emeraldhardblock("emerald_hard_block").setCreativeTab(defaultModTab);
+    public static Block KEY1 = new emeraldfence("emerald_fence", 13.5F, 20.0F).setCreativeTab(defaultModTab);
 
     public static void register()
     {
         setRegister(KEY);
+        setRegister(KEY1);
     }
 
     @SideOnly(Side.CLIENT)
     public static void registerRender()
     {
         setRender(KEY);
+        setRender(KEY1);
     }
 
     private static void setRegister(Block block)
