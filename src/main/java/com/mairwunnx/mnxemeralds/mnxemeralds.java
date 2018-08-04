@@ -1,7 +1,6 @@
 package com.mairwunnx.mnxemeralds;
 
 import com.mairwunnx.mnxemeralds.drop.villager;
-import com.mairwunnx.mnxemeralds.loots.dungeonloot;
 import com.mairwunnx.mnxemeralds.proxy.CommonProxy;
 import com.mairwunnx.mnxemeralds.registers.itemregister;
 import net.minecraft.creativetab.CreativeTabs;
@@ -59,8 +58,6 @@ public class mnxemeralds
         proxy.init(event);
 
         logger.info("mnxemeralds mod starting Initialization event.");
-
-        MinecraftForge.EVENT_BUS.register(new dungeonloot());
     }
 
     @EventHandler
