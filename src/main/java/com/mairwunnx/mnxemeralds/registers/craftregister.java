@@ -40,6 +40,7 @@ public class craftregister
         registerRecipes("emerald_super_leggings");
         registerRecipes("emerald_super_boots");
         registerRecipes("emerald_fence");
+        registerRecipes("emerald_slab");
     }
 
     private static void registerRecipes(String name)
