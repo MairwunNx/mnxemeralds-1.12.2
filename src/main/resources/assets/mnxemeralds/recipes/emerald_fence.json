@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "   ",
+        "LAL",
+        "LAL"
+    ],
+    "key": {
+        "L": {
+            "item": "minecraft:emerald"
+        },
+        "A": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "mnxemeralds:emerald_fence",
+        "count": 1
+    }
+}
