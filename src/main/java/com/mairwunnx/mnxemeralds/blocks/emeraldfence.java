@@ -13,7 +13,6 @@ public class emeraldfence extends BlockFence
         setResistance(resistance);
         setHardness(hardness);
         this.useNeighborBrightness = true;
-
-
+        setLightLevel(20.0F);
     }
 }
