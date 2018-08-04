@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "L  ",
+        "LL ",
+        "LLL"
+    ],
+    "key": {
+        "L": {
+            "item": "minecraft:emerald_block"
+        }
+    },
+    "result": {
+        "item": "mnxemeralds:emerald_stairs",
+        "count": 4
+    }
+}

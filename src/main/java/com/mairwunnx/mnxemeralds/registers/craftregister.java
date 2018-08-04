@@ -41,6 +41,7 @@ public class craftregister
         registerRecipes("emerald_super_boots");
         registerRecipes("emerald_fence");
         registerRecipes("emerald_slab");
+        registerRecipes("emerald_stairs");
     }
 
     private static void registerRecipes(String name)

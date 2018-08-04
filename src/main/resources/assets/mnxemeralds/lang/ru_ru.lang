@@ -33,4 +33,5 @@ item.emerald_super_chestplate.name=§dИзумрудный Улучшенный+
 item.emerald_super_leggings.name=§dИзумрудные Улучшенные+ Поножи
 item.emerald_super_boots.name=§dИзумрудные Улучшенные+ Кроссовки
 tile.emerald_fence.name=Изумрудный Забор
-tile.emerald_slab.name=Изумрудный полублок
+tile.emerald_slab.name=Изумрудный Полублок
+tile.emerald_stairs.name=Изумрудные Ступеньки
