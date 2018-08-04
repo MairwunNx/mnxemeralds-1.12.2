@@ -18,7 +18,6 @@ public class blockregister
     public static Block KEY = new emeraldhardblock("emerald_hard_block").setCreativeTab(defaultModTab);
     public static Block KEY1 = new emeraldfence("emerald_fence", 13.5F, 20.0F).setCreativeTab(defaultModTab);
     public static Block KEY2 = new emeraldhalfslab("emerald_slab", 13.5F, 20.0F).setCreativeTab(defaultModTab);
-    public static Block KEY3 = new emeralddoubleslab("emerald_slab", 13.5F, 20.0F).setCreativeTab(defaultModTab);
 
     public static void register()
     {

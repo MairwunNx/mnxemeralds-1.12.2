@@ -40,6 +40,12 @@ public abstract class emeraldslab extends BlockSlab
     }
 
     @Override
+    public IBlockState getStateFromMeta(int meta)
+    {
+            return this.getDefaultState().withProperty(HALF, EnumBlockHalf.values()[meta % EnumBlockHalf.values().length]);
+    }
+
+    @Override
     public boolean isDouble()
     {
         return false;
@@ -52,22 +58,8 @@ public abstract class emeraldslab extends BlockSlab
     }
 
     @Override
-    public IBlockState getStateFromMeta(int meta)
-    {
-        if(!this.isDouble())
-        {
-            return this.getDefaultState().withProperty(HALF, EnumBlockHalf.values()[meta % EnumBlockHalf.values().length]);
-        }
-        return this.getDefaultState();
-    }
-
-    @Override
     public int getMetaFromState(IBlockState state)
     {
-        if(!this.isDouble())
-        {
-            return 0;
-        }
 
         return ((EnumBlockHalf)state.getValue(HALF)).ordinal() + 1;
     }
@@ -95,4 +87,6 @@ public abstract class emeraldslab extends BlockSlab
     {
         return EnumBlockHalf.BOTTOM;
     }
+
+
 }
