@@ -47,7 +47,7 @@ Emeralds... Emeralds... EMERALDS!!! Mod add more emeralds items in Minecraft.
 
 # Download
 
- * Download the source and �ompile (compiling source requires Intellij IDEA 2018.2+ and Java 8).
+ * Download the source and Сompile (compiling source requires Intellij IDEA 2018.2+ and Java 8).
  * Download a pre-compiled mnxemeralds from the [releases](https://github.com/MairwunNx/mnxemeralds-1.12.2/releases) page.
  * Download a compiled mnxemeralds from the [curseforge](https://minecraft.curseforge.com/projects/mnxemeralds) page.
 
