@@ -33,7 +33,7 @@ public class emeraldsupersword extends ItemSword
         this.setUnlocalizedName(name);
         this.canRepair = true;
     }
-    
+
     @Override
     public ActionResult<ItemStack> onItemRightClick(World worldIn, EntityPlayer playerIn, EnumHand handIn)
     {
