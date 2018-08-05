@@ -15,7 +15,7 @@ Emeralds... Emeralds... EMERALDS!!! Mod add more emeralds items in Minecraft.
  * Emerald apple, identical to the golden apple. Adds some effects to player and adds more units of saturation and food.
  * Emerald super apple, identical to the golden powered apple. Adds some effects to player and adds more units of saturation and food.
 
-# Food
+# Blocks
 
  * Emerald slabs, emerald stairs, emerald fence.
 
