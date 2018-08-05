@@ -1,5 +1,6 @@
 package com.mairwunnx.mnxemeralds.items;
 
+import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.projectile.EntityLargeFireball;
 import net.minecraft.item.Item;
@@ -15,8 +16,10 @@ import net.minecraftforge.event.entity.player.ItemTooltipEvent;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
+import javax.annotation.Nullable;
 import java.util.List;
 
+import static com.mairwunnx.mnxemeralds.registers.itemregister.KEY21;
 import static com.mairwunnx.mnxemeralds.registers.itemregister.KEY27;
 
 public class emeraldsupersword extends ItemSword
@@ -29,10 +32,8 @@ public class emeraldsupersword extends ItemSword
         this.setRegistryName(name);
         this.setUnlocalizedName(name);
         this.canRepair = true;
-        addInformation(null, null, "Don't use at home!!!");
-
     }
-
+    
     @Override
     public ActionResult<ItemStack> onItemRightClick(World worldIn, EntityPlayer playerIn, EnumHand handIn)
     {
