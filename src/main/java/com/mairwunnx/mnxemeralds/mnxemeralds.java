@@ -23,7 +23,7 @@ public class mnxemeralds
     private static Logger logger;
     public static final String MODID = "mnxemeralds";
     public static final String NAME = "mnxemeralds";
-    public static final String VERSION = "1.0.0.0";
+    public static final String VERSION = "1.0.1.0";
 
     @SidedProxy(clientSide = "com.mairwunnx.mnxemeralds.proxy.ClientProxy", serverSide = "com.mairwunnx.mnxemeralds.proxy.CommonProxy")
     public static CommonProxy proxy;
