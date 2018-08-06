@@ -51,6 +51,7 @@ public class itemregister
     public static Item KEY29 = new emeraldsuperarmor("emerald_super_chestplate", 1, EntityEquipmentSlot.CHEST).setCreativeTab(defaultModTab);
     public static Item KEY30 = new emeraldsuperarmor("emerald_super_leggings", 2, EntityEquipmentSlot.LEGS).setCreativeTab(defaultModTab);
     public static Item KEY31 = new emeraldsuperarmor("emerald_super_boots", 1, EntityEquipmentSlot.FEET).setCreativeTab(defaultModTab);
+    public static Item KEY32 = new emeraldbow("emerald_bow").setCreativeTab(defaultModTab);
 
     public static void register()
     {
@@ -86,6 +87,7 @@ public class itemregister
         setRegister(KEY29);
         setRegister(KEY30);
         setRegister(KEY31);
+        setRegister(KEY32);
     }
 
     @SideOnly(Side.CLIENT)
@@ -124,6 +126,7 @@ public class itemregister
         setRender(KEY29);
         setRender(KEY30);
         setRender(KEY31);
+        setRender(KEY32);
     }
 
     private static void setRegister(Item item)
