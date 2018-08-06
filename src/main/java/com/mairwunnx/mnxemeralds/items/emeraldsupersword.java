@@ -1,6 +1,5 @@
 package com.mairwunnx.mnxemeralds.items;
 
-import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.projectile.EntityLargeFireball;
 import net.minecraft.item.Item;
@@ -12,15 +11,8 @@ import net.minecraft.util.EnumHand;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
 import net.minecraftforge.common.util.EnumHelper;
-import net.minecraftforge.event.entity.player.ItemTooltipEvent;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
-
-import javax.annotation.Nullable;
-import java.util.List;
-
-import static com.mairwunnx.mnxemeralds.registers.itemregister.KEY21;
-import static com.mairwunnx.mnxemeralds.registers.itemregister.KEY27;
 
 public class emeraldsupersword extends ItemSword
 {
