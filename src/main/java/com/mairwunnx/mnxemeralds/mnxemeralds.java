@@ -45,7 +45,9 @@ public class mnxemeralds
 
         logger = event.getModLog();
 
-        logger.info("mnxemeralds mod starting preInitialization event.");
+        logger.info("mnxemeralds " + VERSION + " by MairwunNx. Hello Curse!");
+        logger.info("Gmail: MairwunNx@gmail.com , telegram: @MairwunNx .");
+        logger.info("Sources on github @MairwunNx/mnxemeralds-1.12.2 .");
 
         itemregister.register();
 
@@ -56,8 +58,6 @@ public class mnxemeralds
     public void init(FMLInitializationEvent event)
     {
         proxy.init(event);
-
-        logger.info("mnxemeralds mod starting Initialization event.");
     }
 
     @EventHandler

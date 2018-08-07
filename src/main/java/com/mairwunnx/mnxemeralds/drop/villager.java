@@ -1,10 +1,11 @@
 package com.mairwunnx.mnxemeralds.drop;
 
-import java.util.Random;
 import com.mairwunnx.mnxemeralds.registers.itemregister;
-import net.minecraft.entity.passive.*;
+import net.minecraft.entity.passive.EntityVillager;
 import net.minecraftforge.event.entity.living.LivingDropsEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+
+import java.util.Random;
 
 public class villager
 {
@@ -16,7 +17,7 @@ public class villager
     {
         if(event.getEntityLiving() instanceof EntityVillager)
         {
-            event.getEntityLiving().dropItem(itemregister.KEY3, r.nextInt(2));
+            event.getEntityLiving().dropItem(itemregister.KEY1, r.nextInt(2));
         }
     }
 }
