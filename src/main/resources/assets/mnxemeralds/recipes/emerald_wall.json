@@ -2,19 +2,16 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
         "   ",
-        "LAL",
-        "LAL"
+        "LLL",
+        "LLL"
     ],
     "key": {
         "L": {
             "item": "minecraft:emerald"
-        },
-        "A": {
-            "item": "minecraft:stick"
         }
     },
     "result": {
-        "item": "mnxemeralds:emerald_fence",
-        "count": 3
+        "item": "mnxemeralds:emerald_wall",
+        "count": 6
     }
 }

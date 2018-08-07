@@ -43,6 +43,7 @@ public class craftregister
         registerRecipes("emerald_slab");
         registerRecipes("emerald_stairs");
         registerRecipes("emerald_bow");
+        registerRecipes("emerald_wall");
     }
 
     private static void registerRecipes(String name)

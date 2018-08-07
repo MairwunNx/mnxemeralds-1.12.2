@@ -17,7 +17,7 @@ public class villager
     {
         if(event.getEntityLiving() instanceof EntityVillager)
         {
-            event.getEntityLiving().dropItem(itemregister.KEY1, r.nextInt(2));
+            event.getEntityLiving().dropItem(itemregister.KEY1, r.nextInt(3));
         }
     }
 }
