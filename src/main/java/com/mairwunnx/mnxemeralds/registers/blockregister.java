@@ -2,6 +2,7 @@ package com.mairwunnx.mnxemeralds.registers;
 
 import com.mairwunnx.mnxemeralds.blocks.*;
 import net.minecraft.block.Block;
+import net.minecraft.block.BlockWall;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;

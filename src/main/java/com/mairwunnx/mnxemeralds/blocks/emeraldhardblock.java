@@ -16,16 +16,4 @@ public class emeraldhardblock extends Block
         this.blockResistance = 20.0F;
         this.blockSoundType = SoundType.METAL;
     }
-
-    @Override
-    public boolean isOpaqueCube(IBlockState state)
-    {
-        return false;
-    }
-
-    @Override
-    public boolean isFullCube(IBlockState state)
-    {
-        return false;
-    }
 }
