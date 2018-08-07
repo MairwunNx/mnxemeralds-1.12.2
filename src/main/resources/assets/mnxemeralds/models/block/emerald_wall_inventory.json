@@ -1,6 +1,6 @@
 {
     "parent": "block/wall_inventory",
     "textures": {
-        "wall": "blocks/emerald_hard_block"
+        "wall": "mnxemeralds:blocks/emerald_hard_block"
     }
 }
