@@ -51,6 +51,41 @@ Emeralds... Emeralds... EMERALDS!!! Mod add more emeralds items in Minecraft.
  * Download a pre-compiled mnxemeralds from the [releases](https://github.com/MairwunNx/mnxemeralds-1.12.2/releases) page.
  * Download a compiled mnxemeralds from the [curseforge](https://minecraft.curseforge.com/projects/mnxemeralds) page.
 
+# Functions
+
+| Item | Status |
+| --- | --- | --- |
+| Emerald Nugget Dust | Complete |
+| Emerald Nugget | Complete |
+| Emerald Slabs | Complete |
+| Emerald Hard Slabs | In work |
+| Emerald Stairs | Complete |
+| Emerald Hard Stairs | In work |
+| Emerald Fence | Complete |
+| Emerald Hard Fence | In work |
+| Emerald Wall | Almost |
+| Emerald Hard Wall | In work |
+| Emerald Hard Block | Complete |
+| Emerald Chest | In work |
+| Emerald Hard Chest | In work |
+| Emerald Furnace | Almost |
+| Emerald Hard Furnace | In work |
+| Emerald Portal Block | In work |
+| Emerald Portal Effect | In work |
+| Emerald Dimension | In work |
+| Emerald Cow | In work |
+| Emerald Dog | In work |
+| Emerald Pig | In work |
+| Emerald Chicken | In work |
+| Emerald Tools | Complete |
+| Emerald Armors | Complete |
+| Emerald Swords | Complete |
+| Emerald Bow | Complete |
+| Emerald Carrot | Complete |
+| Emerald Apple | Complete |
+| Emerald Super Apple | Complete |
+| Villager Dust Drop | Complete |
+
 # Screenshot (1.0.0.0 items!)
 
 ![Alt text](images/moditems.png "Items. By https://vk.com/memd6")

@@ -19,7 +19,7 @@ public class blockregister
     public static Block KEY2 = new emeraldhalfslab("emerald_slab", 13.5F, 20.0F).setCreativeTab(defaultModTab);
     public static Block KEY3 = new emeraldstairs("emerald_stairs", 13.5F, 20.0F, KEY.getDefaultState()).setCreativeTab(defaultModTab);
     public static Block KEY4 = new emeraldwall("emerald_wall", 13.5F, 20.0F, KEY).setCreativeTab(defaultModTab);
-    public static Block KEY5 = new emeraldfurnace(false ,"emerald_furnace").setCreativeTab(defaultModTab);
+    //public static Block KEY5 = new emeraldfurnace(false ,"emerald_furnace").setCreativeTab(defaultModTab);
 
     public static void register()
     {
@@ -28,7 +28,7 @@ public class blockregister
         setRegister(KEY2);
         setRegister(KEY3);
         setRegister(KEY4);
-        setRegister(KEY5);
+        //setRegister(KEY5);
     }
 
     @SideOnly(Side.CLIENT)
@@ -39,7 +39,7 @@ public class blockregister
         setRender(KEY2);
         setRender(KEY3);
         setRender(KEY4);
-        setRender(KEY5);
+        //setRender(KEY5);
     }
 
     private static void setRegister(Block block)
