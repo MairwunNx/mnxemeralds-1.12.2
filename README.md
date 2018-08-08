@@ -54,7 +54,7 @@ Emeralds... Emeralds... EMERALDS!!! Mod add more emeralds items in Minecraft.
 # Functions
 
 | Item | Status |
-| --- | --- | --- |
+| --- | --- |
 | Emerald Nugget Dust | Complete |
 | Emerald Nugget | Complete |
 | Emerald Slabs | Complete |
