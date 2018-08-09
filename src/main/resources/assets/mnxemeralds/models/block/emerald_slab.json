@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "mnxemeralds:blocks/emerald_slab"
+    "all": "mnxemeralds:blocks/emerald_hard_block"
   }
 }

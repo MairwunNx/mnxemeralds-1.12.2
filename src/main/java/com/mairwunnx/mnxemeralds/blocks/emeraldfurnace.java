@@ -38,6 +38,8 @@ public class emeraldfurnace extends BlockContainer
         super(Material.IRON);
         setRegistryName(name);
         setUnlocalizedName(name);
+        setHardness(hardness);
+        setResistance(resistance);
         this.setDefaultState(this.blockState.getBaseState().withProperty(FACING, EnumFacing.NORTH));
         this.isBurning = isBurning;
     }
