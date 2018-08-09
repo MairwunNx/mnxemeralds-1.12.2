@@ -33,7 +33,7 @@ public class emeraldfurnace extends BlockContainer
     private final boolean isBurning;
     private static boolean keepInventory;
 
-    public emeraldfurnace(boolean isBurning, String name)
+    public emeraldfurnace(boolean isBurning, String name, float hardness, float resistance)
     {
         super(Material.IRON);
         setRegistryName(name);
