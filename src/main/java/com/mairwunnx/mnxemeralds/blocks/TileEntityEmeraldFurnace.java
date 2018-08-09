@@ -109,7 +109,7 @@ public class TileEntityEmeraldFurnace extends TileEntityLockable implements ITic
      */
     public String getName()
     {
-        return this.hasCustomName() ? this.furnaceCustomName : "container.furnace";
+        return this.hasCustomName() ? this.furnaceCustomName : "container.emerald_furnace";
     }
 
     /**

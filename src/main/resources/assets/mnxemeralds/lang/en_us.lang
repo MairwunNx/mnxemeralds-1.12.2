@@ -43,3 +43,5 @@ tile.emerald_wall.name=Emerald Wall
 tile.emerald_hard_wall.name=§bEmerald Hard Wall
 tile.emerald_furnace.name=§2Emerald Furnace
 tile.lit_emerald_furnace.name=§2Emerald Furnace
+container.emerald_chest=§2Emerald Chest
+container.emerald_furnace=§2Emerald Furnace

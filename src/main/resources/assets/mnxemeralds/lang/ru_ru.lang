@@ -43,3 +43,5 @@ tile.emerald_hard_fence.name=§bИзумрудный Улучшенный Заб
 tile.emerald_hard_slab.name=§bИзумрудный Улучшенный Полублок
 tile.emerald_hard_stairs.name=§bИзумрудные Улучшенные Ступеньки
 tile.emerald_hard_wall.name=§bИзумрудная Улучшенная Ограда
+container.emerald_chest=§2Изумрудный Сундук
+container.emerald_furnace=§2Изумрудная Печь
