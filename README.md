@@ -63,13 +63,11 @@ Emeralds... Emeralds... EMERALDS!!! Mod add more emeralds items in Minecraft.
 | Emerald Hard Stairs | In work |
 | Emerald Fence | Complete |
 | Emerald Hard Fence | In work |
-| Emerald Wall | Almost |
+| Emerald Wall | Complete |
 | Emerald Hard Wall | In work |
 | Emerald Hard Block | Complete |
 | Emerald Chest | In work |
-| Emerald Hard Chest | In work |
-| Emerald Furnace | Almost |
-| Emerald Hard Furnace | In work |
+| Emerald Furnace | Complete |
 | Emerald Portal Block | In work |
 | Emerald Portal Effect | In work |
 | Emerald Dimension | In work |
