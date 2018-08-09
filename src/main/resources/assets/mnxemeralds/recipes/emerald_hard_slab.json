@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "   ",
+        "   ",
+        "LLL"
+    ],
+    "key": {
+        "L": {
+            "item": "mnxemeralds:emerald_hard_block"
+        }
+    },
+    "result": {
+        "item": "mnxemeralds:emerald_hard_slab",
+        "count": 6
+    }
+}

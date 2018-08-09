@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=bottom": { "model": "mnxemeralds:emerald_hard_slab_bottom" },
+        "half=top": { "model": "mnxemeralds:emerald_hard_slab_top" }
+    }
+}

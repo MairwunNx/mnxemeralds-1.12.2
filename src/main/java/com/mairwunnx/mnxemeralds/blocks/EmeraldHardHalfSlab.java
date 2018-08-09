@@ -2,9 +2,9 @@ package com.mairwunnx.mnxemeralds.blocks;
 
 import net.minecraft.block.state.IBlockState;
 
-public class emeraldhalfslab extends emeraldslab
+public class EmeraldHardHalfSlab extends EmeraldHardSlab
 {
-    public emeraldhalfslab(String name, float hardness, float resistance)
+    public EmeraldHardHalfSlab(String name, float hardness, float resistance)
     {
         super(name, hardness, resistance);
     }

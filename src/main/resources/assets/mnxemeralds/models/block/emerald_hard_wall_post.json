@@ -1,6 +1,6 @@
 {
     "parent": "block/wall_post",
     "textures": {
-        "wall": "mnxemeralds:blocks/emerald_block"
+        "wall": "mnxemeralds:blocks/emerald_hard_block"
     }
 }

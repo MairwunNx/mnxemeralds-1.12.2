@@ -15,12 +15,19 @@ import static com.mairwunnx.mnxemeralds.mnxemeralds.defaultModTab;
 public class blockregister
 {
     public static Block KEY = new emeraldhardblock("emerald_hard_block").setCreativeTab(defaultModTab);
+
     public static Block KEY1 = new emeraldfence("emerald_fence", 13.5F, 20.0F).setCreativeTab(defaultModTab);
     public static Block KEY2 = new emeraldhalfslab("emerald_slab", 13.5F, 20.0F).setCreativeTab(defaultModTab);
     public static Block KEY3 = new emeraldstairs("emerald_stairs", 13.5F, 20.0F, KEY.getDefaultState()).setCreativeTab(defaultModTab);
     public static Block KEY4 = new emeraldwall("emerald_wall", 13.5F, 20.0F, KEY).setCreativeTab(defaultModTab);
+
     public static Block KEY5 = new emeraldfurnace(false ,"emerald_furnace", 13.5F, 20.0F).setCreativeTab(defaultModTab);
     public static Block KEY6 = new emeraldfurnace(true ,"emerald_furnace_on", 13.5F, 20.0F);
+
+    public static Block KEY7 = new EmeraldHardStairs("emerald_hard_stairs", 17.5F, 24.0F, KEY.getDefaultState()).setCreativeTab(defaultModTab);
+    public static Block KEY8 = new EmeraldHardWall("emerald_hard_wall", 17.5F, 24.0F, KEY).setCreativeTab(defaultModTab);
+    public static Block KEY9 = new EmeraldHardHalfSlab("emerald_hard_slab", 17.5F, 24.0F).setCreativeTab(defaultModTab);
+    public static Block KEY10 = new EmeraldHardFence("emerald_hard_fence", 17.5F, 24.0F).setCreativeTab(defaultModTab);
 
     public static void register()
     {
@@ -31,6 +38,10 @@ public class blockregister
         setRegister(KEY4);
         setRegister(KEY5);
         setRegister(KEY6);
+        setRegister(KEY7);
+        setRegister(KEY8);
+        setRegister(KEY9);
+        setRegister(KEY10);
     }
 
     @SideOnly(Side.CLIENT)
@@ -43,6 +54,10 @@ public class blockregister
         setRender(KEY4);
         setRender(KEY5);
         setRender(KEY6);
+        setRender(KEY7);
+        setRender(KEY8);
+        setRender(KEY9);
+        setRender(KEY10);
     }
 
     private static void setRegister(Block block)

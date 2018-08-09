@@ -11,23 +11,23 @@ import net.minecraft.item.ItemStack;
 
 import java.util.Random;
 
-public abstract class emeraldslab extends BlockSlab
+public abstract class EmeraldHardSlab extends BlockSlab
 {
-    public emeraldslab(String name, float hardness, float resistance)
+    public EmeraldHardSlab(String name, float hardness, float resistance)
     {
         super(Material.IRON);
         setUnlocalizedName(name);
         setRegistryName(name);
         setResistance(resistance);
         setHardness(hardness);
-        this.useNeighborBrightness = true;
         setLightLevel(20.0F);
+        this.useNeighborBrightness = true;
 
         IBlockState state = this.blockState.getBaseState();
 
         if(!this.isDouble())
         {
-            state = state.withProperty(HALF, EnumBlockHalf.BOTTOM);
+            state = state.withProperty(HALF, BlockSlab.EnumBlockHalf.BOTTOM);
         }
 
         setDefaultState(state);
@@ -42,7 +42,7 @@ public abstract class emeraldslab extends BlockSlab
     @Override
     public IBlockState getStateFromMeta(int meta)
     {
-            return this.getDefaultState().withProperty(HALF, EnumBlockHalf.values()[meta % EnumBlockHalf.values().length]);
+        return this.getDefaultState().withProperty(HALF, BlockSlab.EnumBlockHalf.values()[meta % BlockSlab.EnumBlockHalf.values().length]);
     }
 
     @Override
@@ -60,8 +60,7 @@ public abstract class emeraldslab extends BlockSlab
     @Override
     public int getMetaFromState(IBlockState state)
     {
-
-        return ((EnumBlockHalf)state.getValue(HALF)).ordinal() + 1;
+        return ((BlockSlab.EnumBlockHalf)state.getValue(HALF)).ordinal() + 1;
     }
 
     @Override
@@ -85,6 +84,6 @@ public abstract class emeraldslab extends BlockSlab
     @Override
     public Comparable<?> getTypeForItem(ItemStack stack)
     {
-        return EnumBlockHalf.BOTTOM;
+        return BlockSlab.EnumBlockHalf.BOTTOM;
     }
 }

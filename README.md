@@ -55,19 +55,19 @@ Emeralds... Emeralds... EMERALDS!!! Mod add more emeralds items in Minecraft.
 
 | Item | Status |
 | --- | --- |
-| Emerald Nugget Dust | Complete |
-| Emerald Nugget | Complete |
-| Emerald Slabs | Complete |
-| Emerald Hard Slabs | In work |
-| Emerald Stairs | Complete |
-| Emerald Hard Stairs | In work |
-| Emerald Fence | Complete |
-| Emerald Hard Fence | In work |
-| Emerald Wall | Complete |
-| Emerald Hard Wall | In work |
-| Emerald Hard Block | Complete |
+| Emerald Nugget Dust | Done |
+| Emerald Nugget | Done |
+| Emerald Slabs | Done |
+| Emerald Hard Slabs | Done |
+| Emerald Stairs | Done |
+| Emerald Hard Stairs | Done |
+| Emerald Fence | Done |
+| Emerald Hard Fence | Done |
+| Emerald Wall | Done |
+| Emerald Hard Wall | Done |
+| Emerald Hard Block | Done |
 | Emerald Chest | In work |
-| Emerald Furnace | Complete |
+| Emerald Furnace | Done |
 | Emerald Portal Block | In work |
 | Emerald Portal Effect | In work |
 | Emerald Dimension | In work |
@@ -75,14 +75,14 @@ Emeralds... Emeralds... EMERALDS!!! Mod add more emeralds items in Minecraft.
 | Emerald Dog | In work |
 | Emerald Pig | In work |
 | Emerald Chicken | In work |
-| Emerald Tools | Complete |
-| Emerald Armors | Complete |
-| Emerald Swords | Complete |
-| Emerald Bow | Complete |
-| Emerald Carrot | Complete |
-| Emerald Apple | Complete |
-| Emerald Super Apple | Complete |
-| Villager Dust Drop | Complete |
+| Emerald Tools | Done |
+| Emerald Armors | Done |
+| Emerald Swords | Done |
+| Emerald Bow | Done |
+| Emerald Carrot | Done |
+| Emerald Apple | Done |
+| Emerald Super Apple | Done |
+| Villager Dust Drop | Done |
 
 # Screenshot (1.0.0.0 items!)
 

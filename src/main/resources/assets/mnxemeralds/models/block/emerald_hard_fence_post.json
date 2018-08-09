@@ -1,6 +1,6 @@
 {
     "parent": "block/fence_post",
     "textures": {
-        "texture": "mnxemeralds:blocks/emerald_block"
+        "texture": "mnxemeralds:blocks/emerald_hard_block"
     }
 }
