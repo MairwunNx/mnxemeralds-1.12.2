@@ -22,7 +22,7 @@ public class blockregister
     public static Block KEY4 = new emeraldwall("emerald_wall", 13.5F, 20.0F, KEY).setCreativeTab(defaultModTab);
 
     public static Block KEY5 = new emeraldfurnace(false ,"emerald_furnace", 13.5F, 20.0F).setCreativeTab(defaultModTab);
-    public static Block KEY6 = new emeraldfurnace(true ,"emerald_furnace_on", 13.5F, 20.0F);
+    public static Block KEY6 = new emeraldfurnace(true ,"lit_emerald_furnace", 13.5F, 20.0F);
 
     public static Block KEY7 = new EmeraldHardStairs("emerald_hard_stairs", 17.5F, 24.0F, KEY.getDefaultState()).setCreativeTab(defaultModTab);
     public static Block KEY8 = new EmeraldHardWall("emerald_hard_wall", 17.5F, 24.0F, KEY).setCreativeTab(defaultModTab);

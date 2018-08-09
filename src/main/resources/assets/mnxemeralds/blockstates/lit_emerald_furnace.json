@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "mnxemeralds:lit_emerald_furnace" },
+        "facing=south": { "model": "mnxemeralds:lit_emerald_furnace", "y": 180 },
+        "facing=west":  { "model": "mnxemeralds:lit_emerald_furnace", "y": 270 },
+        "facing=east":  { "model": "mnxemeralds:lit_emerald_furnace", "y": 90 }
+    }
+}
