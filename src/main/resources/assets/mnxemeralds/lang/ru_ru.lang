@@ -37,3 +37,5 @@ tile.emerald_slab.name=Изумрудный Полублок
 tile.emerald_stairs.name=Изумрудные Ступеньки
 item.emerald_bow.name=Изумрудный Лук
 tile.emerald_wall.name=Изумрудное Ограда
+tile.emerald_furnace.name=Изумрудная Печь
+tile.emerald_furnace_on.name=Изумрудная Печь

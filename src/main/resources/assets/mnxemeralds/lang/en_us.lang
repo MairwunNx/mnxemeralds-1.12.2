@@ -37,3 +37,5 @@ tile.emerald_slab.name=Emerald Slab
 tile.emerald_stairs.name=Emerald Stairs
 item.emerald_bow.name=Emerald Bow
 tile.emerald_wall.name=Emerald Wall
+tile.emerald_furnace.name=Emerald Furnace
+tile.emerald_furnace_on.name=Emerald Furnace

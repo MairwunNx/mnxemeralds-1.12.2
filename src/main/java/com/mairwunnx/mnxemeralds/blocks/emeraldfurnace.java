@@ -16,7 +16,6 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.stats.StatList;
 import net.minecraft.tileentity.TileEntity;
-import net.minecraft.tileentity.TileEntityFurnace;
 import net.minecraft.util.*;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
@@ -26,6 +25,7 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 import java.util.Random;
 
 import static com.mairwunnx.mnxemeralds.registers.blockregister.KEY5;
+import static com.mairwunnx.mnxemeralds.registers.blockregister.KEY6;
 
 public class emeraldfurnace extends BlockContainer
 {
@@ -132,9 +132,9 @@ public class emeraldfurnace extends BlockContainer
         {
             TileEntity tileentity = worldIn.getTileEntity(pos);
 
-            if (tileentity instanceof TileEntityFurnace)
+            if (tileentity instanceof TileEntityEmeraldFurnace)
             {
-                playerIn.displayGUIChest((TileEntityFurnace)tileentity);
+                playerIn.displayGUIChest((TileEntityEmeraldFurnace)tileentity);
                 playerIn.addStat(StatList.FURNACE_INTERACTION);
             }
 
@@ -150,8 +150,8 @@ public class emeraldfurnace extends BlockContainer
 
         if (active)
         {
-            worldIn.setBlockState(pos, KEY5.getDefaultState().withProperty(FACING, iblockstate.getValue(FACING)), 3);
-            worldIn.setBlockState(pos, KEY5.getDefaultState().withProperty(FACING, iblockstate.getValue(FACING)), 3);
+            worldIn.setBlockState(pos, KEY6.getDefaultState().withProperty(FACING, iblockstate.getValue(FACING)), 3);
+            worldIn.setBlockState(pos, KEY6.getDefaultState().withProperty(FACING, iblockstate.getValue(FACING)), 3);
         }
         else
         {
@@ -170,7 +170,7 @@ public class emeraldfurnace extends BlockContainer
 
     public TileEntity createNewTileEntity(World worldIn, int meta)
     {
-        return new TileEntityFurnace();
+        return new TileEntityEmeraldFurnace();
     }
 
     public IBlockState getStateForPlacement(World worldIn, BlockPos pos, EnumFacing facing, float hitX, float hitY, float hitZ, int meta, EntityLivingBase placer)
@@ -186,9 +186,9 @@ public class emeraldfurnace extends BlockContainer
         {
             TileEntity tileentity = worldIn.getTileEntity(pos);
 
-            if (tileentity instanceof TileEntityFurnace)
+            if (tileentity instanceof TileEntityEmeraldFurnace)
             {
-                ((TileEntityFurnace)tileentity).setCustomInventoryName(stack.getDisplayName());
+                ((TileEntityEmeraldFurnace)tileentity).setCustomInventoryName(stack.getDisplayName());
             }
         }
     }
@@ -199,9 +199,9 @@ public class emeraldfurnace extends BlockContainer
         {
             TileEntity tileentity = worldIn.getTileEntity(pos);
 
-            if (tileentity instanceof TileEntityFurnace)
+            if (tileentity instanceof TileEntityEmeraldFurnace)
             {
-                InventoryHelper.dropInventoryItems(worldIn, pos, (TileEntityFurnace)tileentity);
+                InventoryHelper.dropInventoryItems(worldIn, pos, (TileEntityEmeraldFurnace)tileentity);
                 worldIn.updateComparatorOutputLevel(pos, this);
             }
         }

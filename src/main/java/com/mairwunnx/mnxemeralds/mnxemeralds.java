@@ -2,6 +2,7 @@ package com.mairwunnx.mnxemeralds;
 
 import com.mairwunnx.mnxemeralds.drop.villager;
 import com.mairwunnx.mnxemeralds.proxy.CommonProxy;
+import com.mairwunnx.mnxemeralds.registers.TileEntityRegister;
 import com.mairwunnx.mnxemeralds.registers.itemregister;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
@@ -50,6 +51,7 @@ public class mnxemeralds
         logger.info("Sources on github @MairwunNx/mnxemeralds-1.12.2 .");
 
         itemregister.register();
+        TileEntityRegister.register();
 
         MinecraftForge.EVENT_BUS.register(new villager());
     }
