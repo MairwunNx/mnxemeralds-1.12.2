@@ -67,11 +67,6 @@ public class EmeraldChest extends BlockContainer
         return true;
     }
 
-    public EnumBlockRenderType getRenderType(IBlockState state)
-    {
-        return EnumBlockRenderType.ENTITYBLOCK_ANIMATED;
-    }
-
     public AxisAlignedBB getBoundingBox(IBlockState state, IBlockAccess source, BlockPos pos)
     {
         if (source.getBlockState(pos.north()).getBlock() == this)
