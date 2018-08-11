@@ -106,7 +106,7 @@ public class EmeraldChest extends BlockContainer
 
     public EnumBlockRenderType getRenderType(IBlockState state)
     {
-        return EnumBlockRenderType.ENTITYBLOCK_ANIMATED;
+        return EnumBlockRenderType.MODEL;
     }
 
     /**
