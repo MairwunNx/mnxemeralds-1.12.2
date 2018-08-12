@@ -1,5 +1,6 @@
 package com.mairwunnx.mnxemeralds.proxy;
 
+import com.mairwunnx.mnxemeralds.registers.ModelRegister;
 import com.mairwunnx.mnxemeralds.registers.blockregister;
 import com.mairwunnx.mnxemeralds.registers.itemregister;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -20,6 +21,8 @@ public class ClientProxy extends CommonProxy
         super.init(event);
 
         itemregister.registerRender();
+
+        ModelRegister.registerModels();
 
         blockregister.registerRender();
     }
