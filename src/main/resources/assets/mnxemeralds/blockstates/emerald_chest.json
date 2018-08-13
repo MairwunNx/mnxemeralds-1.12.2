@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "mnxemeralds:emerald_chest" },
+        "facing=south": { "model": "mnxemeralds:emerald_chest", "y": 180 },
+        "facing=west":  { "model": "mnxemeralds:emerald_chest", "y": 270 },
+        "facing=east":  { "model": "mnxemeralds:emerald_chest", "y": 90 }
+    }
+}

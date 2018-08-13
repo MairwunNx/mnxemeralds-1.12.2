@@ -1,0 +1,8 @@
+{
+    "parent": "block/orientable",
+    "textures": {
+        "top": "mnxemeralds:blocks/emerald_chest_top",
+        "front": "mnxemeralds:blocks/emerald_chest_front_off",
+        "side": "mnxemeralds:blocks/emerald_chest_side"
+    }
+}
