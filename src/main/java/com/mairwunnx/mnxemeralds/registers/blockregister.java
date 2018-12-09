@@ -27,7 +27,7 @@ public class blockregister
     public static Block KEY11 = new EmeraldChest("emerald_chest", 13.5F, 20.0F).setCreativeTab(defaultModTab);
 
     public static Block KEY7 = new EmeraldHardStairs("emerald_hard_stairs", 17.5F, 24.0F, KEY.getDefaultState()).setCreativeTab(defaultModTab);
-    public static Block KEY8 = new EmeraldHardWall("emerald_hard_wall", 24.0F, 17.5F, KEY).setCreativeTab(defaultModTab);
+    public static Block KEY8 = new EmeraldHardWall("emerald_hard_wall", 24.0F, 17.5F, KEY4).setCreativeTab(defaultModTab);
     public static Block KEY9 = new EmeraldHardHalfSlab("emerald_hard_slab", 17.5F, 24.0F).setCreativeTab(defaultModTab);
     public static Block KEY10 = new EmeraldHardFence("emerald_hard_fence", 17.5F, 24.0F).setCreativeTab(defaultModTab);
 
